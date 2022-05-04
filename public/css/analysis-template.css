@@ -1,0 +1,132 @@
+body {
+    background-color: #0C2D48;
+    /*remove extra defauly whitespace*/
+    margin: 0px;
+    padding: 0px;
+    /*min-width:1500px;
+    width: auto !important;
+    width:1500px;*/
+}
+
+t {
+    font-size: 30px;
+}
+p.headertext {
+    font-size: 20px;
+}
+textarea { resize: none; }
+.outside {
+    width: 100vw;
+    height: 100vh;
+    /*margin-top: 2.5vh;*/
+    min-height: 500px;
+    min-width: 700px;
+    font-family: Verdana, sans-serif;
+}
+.titlebar {
+    float:left;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    /*border-top-left-radius: 25px;
+    border-top-right-radius: 25px;*/
+}
+.titlebarspacer{
+    float:left;
+    width: 100%;
+    height: 2%;
+}
+.borderL {
+    width: 2%;
+    height: 86%;
+    /*background-color: red;*/
+    float: left;
+}
+.insideL {
+    width: 47%;
+    height: 86%;
+    background-color: #2e8bc0;
+    float: left;
+    color: #b1d4e0;
+    text-align: center;
+    align-self: center;
+}
+.insideM {
+    width: 2%;
+    height: 86%;
+    /*background-color: red;*/
+    float: left;
+}
+.insideR {
+    width: 47%;
+    height: 86%; 
+    background-color: #2e8bc0;
+    float: right;
+    color: #b1d4e0;
+    text-align: center;
+
+
+}
+.borderR {
+    width: 2%;
+    height: 86%;
+    /*background-color: red;*/
+    float: right;
+}
+
+.analysebutton {
+    width: 50%;
+    height: 20%;
+    background-color: aqua;
+    font-size: 50px;
+
+}
+.inputfield {
+    width: 70%;
+    height: 30%;
+}
+
+.tablediv {
+    background-color: #2e8bc0;
+    /*padding: 5%;
+    float: right;*/
+}
+
+.tablecontainer {
+    background-color: #2e8bc0;
+    border-width: 2px;
+    min-width: 100%;
+    min-height: 10%;
+    padding-bottom: 5%;
+}
+
+th, td, tr {
+    padding: 1px;
+    text-align: center;
+    background-color: #2e8bc0;
+    /*border: 1px solid;
+    border-color: #0C2D48;*/
+    
+    
+}
+
+tr:hover td {
+    background: #0C2D48;
+    
+}
+
+.divseperatorbar {
+    width: 100%;
+    height: 5%;
+    max-height: 20px;
+    background-color: #0C2D48;
+    color: #0C2D48;
+}
+
+.linkarea {
+    /*padding-top: 3%;*/
+    text-align: center;
+    height: 3%;
+    width: 80%;
+    /*font-size: 150%;*/
+}
