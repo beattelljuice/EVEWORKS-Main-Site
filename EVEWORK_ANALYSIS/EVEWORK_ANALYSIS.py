@@ -191,7 +191,7 @@ class EVEWORK_ANALYSIS:
              f.write(finaldict)
              f.close()
 
-             self.DSCANAnalysePage.load_html_template("EVEWORK_ANALYSIS/TEMPLATES/DSCAN-analysis-function-template.html")
+             self.DSCANAnalysePage.load_html_template("EVEWORK_ANALYSIS/TEMPLATES/dscan-analysis-function-template.html")
              self.DSCANAnalysePage.format_html(["http://"+self.URI+"/dscanAnalyse?SCANCODE="+str(currentcount)])
              return self.DSCANAnalysePage.get_parsed_html()
          else:
