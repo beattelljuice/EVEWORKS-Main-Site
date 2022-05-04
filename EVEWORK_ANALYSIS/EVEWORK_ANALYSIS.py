@@ -206,7 +206,7 @@ class EVEWORK_ANALYSIS:
                  self.DSCAN_table += ("<td>"+i+"</td>")
                  self.DSCAN_table += ("<td>"+str(scan_dictionary["SCANDATA"][i]["QUANTITY"])+"</td>")
                  self.DSCAN_table += ("</tr>")
-             self.DSCANAnalysePage.load_html_template("EVEWORK_ANALYSIS/TEMPLATES/DSCAN-analysis-template.html")
+             self.DSCANAnalysePage.load_html_template("EVEWORK_ANALYSIS/TEMPLATES/dscan-analysis-template.html")
              time_taken =scan_dictionary["TIME"]
              self.LOCAL_table = ""
              for i in scan_dictionary["self.LOCALDATA"]:
