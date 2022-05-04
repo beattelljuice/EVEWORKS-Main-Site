@@ -215,7 +215,7 @@ class EVEWORK_ANALYSIS:
                  self.LOCAL_table += ("<td>"+str(scan_dictionary["self.LOCALDATA"][i]["CORPORATION"])+"</td>")
                  self.LOCAL_table += ("<td>"+str(scan_dictionary["self.LOCALDATA"][i]["ALLIANCE"])+"</td>")
                  self.DSCAN_table += ("</tr>")
-             self.DSCANAnalysePage.format_html([("http://"+self.URI+"/self.DSCANAnalyse?SCANCODE="+self.SCANCODE),time_taken,self.DSCAN_table,time_taken,self.LOCAL_table])
+             self.DSCANAnalysePage.format_html([("http://"+self.URI+"/DSCANAnalyse?SCANCODE="+self.SCANCODE),time_taken,self.DSCAN_table,time_taken,self.LOCAL_table])
              return self.DSCANAnalysePage.get_parsed_html()
          #resultstable =""
          self.DEBUG_print(whitelistIDs[0])
